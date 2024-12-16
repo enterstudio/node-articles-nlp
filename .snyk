@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - summarize > superagent > mime:
+        patched: '2024-12-16T18:52:47.739Z'
+        id: 'npm:mime:20170907'
+        path: summarize > superagent > mime
+    - summarize > superagent > form-data > mime:
+        patched: '2024-12-16T18:52:47.739Z'
+        id: 'npm:mime:20170907'
+        path: summarize > superagent > form-data > mime
+  'npm:qs:20140806-1':
+    - summarize > superagent > qs:
+        patched: '2024-12-16T18:52:47.739Z'
+        id: 'npm:qs:20140806-1'
+        path: summarize > superagent > qs
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2024-12-16T18:52:47.739Z'
+        id: 'npm:uglify-js:20151024'
+        path: jade > transformers > uglify-js
